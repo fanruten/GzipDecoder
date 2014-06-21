@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D150957F19546C2C003B3A2D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150957E19546C2C003B3A2D /* main.swift */; };
+		D150958119546C2C003B3A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150958019546C2C003B3A2D /* AppDelegate.swift */; };
+		D150958319546C2C003B3A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D150958219546C2C003B3A2D /* Images.xcassets */; };
+		D150958619546C2C003B3A2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D150958419546C2C003B3A2D /* MainMenu.xib */; };
+		D150959219546C2C003B3A2D /* GzipDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150959119546C2C003B3A2D /* GzipDecoderTests.swift */; };
+		D150959E19547209003B3A2D /* NSData+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = D150959D19547209003B3A2D /* NSData+Compression.m */; };
+		D15095A0195472B7003B3A2D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D150959F195472B7003B3A2D /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D150958C19546C2C003B3A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D150957119546C2C003B3A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D150957819546C2C003B3A2D;
+			remoteInfo = GzipDecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D150957919546C2C003B3A2D /* GzipDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GzipDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D150957D19546C2C003B3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D150957E19546C2C003B3A2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D150958019546C2C003B3A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D150958219546C2C003B3A2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D150958519546C2C003B3A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D150958B19546C2C003B3A2D /* GzipDecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GzipDecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D150959019546C2C003B3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D150959119546C2C003B3A2D /* GzipDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GzipDecoderTests.swift; sourceTree = "<group>"; };
+		D150959B19547208003B3A2D /* GzipDecoder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GzipDecoder-Bridging-Header.h"; sourceTree = "<group>"; };
+		D150959C19547209003B3A2D /* NSData+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Compression.h"; sourceTree = "<group>"; };
+		D150959D19547209003B3A2D /* NSData+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Compression.m"; sourceTree = "<group>"; };
+		D150959F195472B7003B3A2D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D150957619546C2C003B3A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15095A0195472B7003B3A2D /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D150958819546C2C003B3A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D150957019546C2C003B3A2D = {
+			isa = PBXGroup;
+			children = (
+				D150959F195472B7003B3A2D /* libz.dylib */,
+				D150957B19546C2C003B3A2D /* GzipDecoder */,
+				D150958E19546C2C003B3A2D /* GzipDecoderTests */,
+				D150957A19546C2C003B3A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D150957A19546C2C003B3A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D150957919546C2C003B3A2D /* GzipDecoder.app */,
+				D150958B19546C2C003B3A2D /* GzipDecoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D150957B19546C2C003B3A2D /* GzipDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				D150958019546C2C003B3A2D /* AppDelegate.swift */,
+				D150959C19547209003B3A2D /* NSData+Compression.h */,
+				D150959D19547209003B3A2D /* NSData+Compression.m */,
+				D150958219546C2C003B3A2D /* Images.xcassets */,
+				D150958419546C2C003B3A2D /* MainMenu.xib */,
+				D150957C19546C2C003B3A2D /* Supporting Files */,
+				D150959B19547208003B3A2D /* GzipDecoder-Bridging-Header.h */,
+			);
+			path = GzipDecoder;
+			sourceTree = "<group>";
+		};
+		D150957C19546C2C003B3A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D150957D19546C2C003B3A2D /* Info.plist */,
+				D150957E19546C2C003B3A2D /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D150958E19546C2C003B3A2D /* GzipDecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D150959119546C2C003B3A2D /* GzipDecoderTests.swift */,
+				D150958F19546C2C003B3A2D /* Supporting Files */,
+			);
+			path = GzipDecoderTests;
+			sourceTree = "<group>";
+		};
+		D150958F19546C2C003B3A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D150959019546C2C003B3A2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D150957819546C2C003B3A2D /* GzipDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D150959519546C2C003B3A2D /* Build configuration list for PBXNativeTarget "GzipDecoder" */;
+			buildPhases = (
+				D150957519546C2C003B3A2D /* Sources */,
+				D150957619546C2C003B3A2D /* Frameworks */,
+				D150957719546C2C003B3A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GzipDecoder;
+			productName = GzipDecoder;
+			productReference = D150957919546C2C003B3A2D /* GzipDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D150958A19546C2C003B3A2D /* GzipDecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D150959819546C2C003B3A2D /* Build configuration list for PBXNativeTarget "GzipDecoderTests" */;
+			buildPhases = (
+				D150958719546C2C003B3A2D /* Sources */,
+				D150958819546C2C003B3A2D /* Frameworks */,
+				D150958919546C2C003B3A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D150958D19546C2C003B3A2D /* PBXTargetDependency */,
+			);
+			name = GzipDecoderTests;
+			productName = GzipDecoderTests;
+			productReference = D150958B19546C2C003B3A2D /* GzipDecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D150957119546C2C003B3A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "e-legion";
+				TargetAttributes = {
+					D150957819546C2C003B3A2D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D150958A19546C2C003B3A2D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D150957819546C2C003B3A2D;
+					};
+				};
+			};
+			buildConfigurationList = D150957419546C2C003B3A2D /* Build configuration list for PBXProject "GzipDecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D150957019546C2C003B3A2D;
+			productRefGroup = D150957A19546C2C003B3A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D150957819546C2C003B3A2D /* GzipDecoder */,
+				D150958A19546C2C003B3A2D /* GzipDecoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D150957719546C2C003B3A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D150958319546C2C003B3A2D /* Images.xcassets in Resources */,
+				D150958619546C2C003B3A2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D150958919546C2C003B3A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D150957519546C2C003B3A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D150958119546C2C003B3A2D /* AppDelegate.swift in Sources */,
+				D150957F19546C2C003B3A2D /* main.swift in Sources */,
+				D150959E19547209003B3A2D /* NSData+Compression.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D150958719546C2C003B3A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D150959219546C2C003B3A2D /* GzipDecoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D150958D19546C2C003B3A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D150957819546C2C003B3A2D /* GzipDecoder */;
+			targetProxy = D150958C19546C2C003B3A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D150958419546C2C003B3A2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D150958519546C2C003B3A2D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D150959319546C2C003B3A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D150959419546C2C003B3A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D150959619546C2C003B3A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GzipDecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GzipDecoder/GzipDecoder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D150959719546C2C003B3A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GzipDecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GzipDecoder/GzipDecoder-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D150959919546C2C003B3A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GzipDecoder.app/Contents/MacOS/GzipDecoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GzipDecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D150959A19546C2C003B3A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GzipDecoder.app/Contents/MacOS/GzipDecoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GzipDecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D150957419546C2C003B3A2D /* Build configuration list for PBXProject "GzipDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D150959319546C2C003B3A2D /* Debug */,
+				D150959419546C2C003B3A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D150959519546C2C003B3A2D /* Build configuration list for PBXNativeTarget "GzipDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D150959619546C2C003B3A2D /* Debug */,
+				D150959719546C2C003B3A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D150959819546C2C003B3A2D /* Build configuration list for PBXNativeTarget "GzipDecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D150959919546C2C003B3A2D /* Debug */,
+				D150959A19546C2C003B3A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D150957119546C2C003B3A2D /* Project object */;
+}
